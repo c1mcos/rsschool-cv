@@ -28,7 +28,7 @@
 - ["Python":  Stepik](https://stepik.org/course/58852/promo)
 - [Python:  · Stepik](https://stepik.org/course/512/promo)
 
-# 5. Education
+### 5. Education
 
 > |             |                                                              |                       |
 > | ----------- | ------------------------------------------------------------ | --------------------- |
