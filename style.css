@@ -1,56 +1,75 @@
-
 .wraper {
-    width: 1200px;
-    margin: 0 auto;
-    background-color:#fff;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
 }
 
 h1 {
-font-size: 30px;
-display: flex;
-justify-content: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
 }
 
-header figure{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
+header figure {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 header img {
-    width: 500px;
-    border-radius: 50%;
+  width: 500px;
+  border-radius: 50%;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    background-color: #d3940c;
+  display: flex;
+  flex-direction: column;
+  background-color: #d3940c;
 }
 
 figcaption {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-
 h4 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 li {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
-table , TD , TR {
-    table-layout: fixed;
-    width: 90%;
-    border-collapse: collapse;
-    border: 3px solid black;
-  }
+table,
+TD,
+TR {
+  table-layout: fixed;
+  width: 90%;
+  border-collapse: collapse;
+  border: 3px solid black;
+}
 
-  th, td {
-    padding: 20px;
-  }
+th,
+td {
+  padding: 20px;
+}
 
+footer IMG {
+  margin: 0;
+}
+.wraper footer {
+  background-color: rgb(88, 86, 86);
+}
 
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3rem auto;
+}
+
+footer p,
+time {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
