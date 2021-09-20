@@ -58,7 +58,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 3rem auto;
+  padding: 2.5rem auto;
 }
 
 footer p,
