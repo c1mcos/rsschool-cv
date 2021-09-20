@@ -6,21 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV_Zvarych</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
   </head>
   <body>
+   
     <div class="wraper">
-      <header>
+      <div class="wraper">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#Foto">Foto</a></li>
+            <li><a class="menu__item" href="#ContactInfo">Contact Info</a></li>
+            <li><a class="menu__item" href="#Summary">Summary</a></li>
+            <li><a class="menu__item" href="#Skills">Skills</a></li>
+            <li><a class="menu__item" href="#Experience">Experience</a></li>
+            <li><a class="menu__item" href="#ProjectExample">Project Example</a></li>
+            <li><a class="menu__item" href="#CodeExample">Code Example</a></li>
+            <li><a class="menu__item" href="#Education">Education</a></li>
+            <li><a class="menu__item" href="#EnglishLevel">English Level</a></li>
+            <li><a class="menu__item" href="#Lincs">Lincs</a></li>
+          </ul>
+        
+      
+    </div>
+      <main>
         <h1>Zvarych Vasyl</h1>
         <figure>
-          <img src="/img/zv1.JPG" alt="Vasyl Zvarych" width="500" />
+          
+          <img src="/img/zv1.JPG" alt="Vasyl Zvarych" />
           <figcaption>Junior Frontend Developer</figcaption>
         </figure>
-      </header>
-    </div>
-    <div class="wraper">
-      <main>
         <section>
-          <h4>Contact Info</h4>
+          <h4 id="ContactInfo">Contact Info</h4>
           <ul>
             <li>
               Email:<a href="mailto:zvaricvasil@gmail">zvaricvasil@gmail.com</a>
@@ -30,7 +52,7 @@
           </ul>
         </section>
         <section>
-            <h4>Summary</h4>
+            <h4  id="Summary">Summary</h4>
             <ul>
 
               <li>
@@ -49,7 +71,7 @@
             </ul>
           </section>
         <section>
-          <h4>Skills</h4>
+          <h4 id="Skills">Skills</h4>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -60,11 +82,8 @@
             <li>C#(base)</li>
           </ul>
         </section>
-        
-        
-        
         <section>
-          <h4>Experience</h4>
+          <h4 id="Experience">Experience</h4>
           <ul>
             <li>
               <a href="https://stepik.org/course/38218/syllabus">HTML и CSS</a>
@@ -77,10 +96,21 @@
             <li><a href="https://stepik.org/course/58852/promo">Python</a></li>
             <li><a href="https://stepik.org/course/512/promo">Python</a></li>
           </ul> 
-           <a href="https://github.com/c1mcos/Huston"><h4>Code examples </h4></a>
+           <a href="https://github.com/c1mcos/Huston"><h4 id="ProjectExample">Project Example (HTML, CSS) </h4></a>
         </section>
         <section>
-          <h4>Education</h4>
+          <h4 id="CodeExample">Code Example </h4>
+          <pre >
+            <code>
+            function multiply(a, b){
+              return a * b
+            }
+            }
+            </code>
+          </pre>
+        </section>
+        <section>
+          <h4 id="Education">Education</h4>
           <table>
             <tr>
               <td>2013 - 2018</td>
@@ -93,12 +123,12 @@
           </table>
         </section>
         <section>
-          <h4>Education</h4>
-          <p>Pre-Intermediate (A2)</p>
+          <h4 id="EnglishLevel">English Level</h4>
+          <p>Pre-Intermediate (B1)</p>
         </section>
       </main>
       <div class="wraper">
-        <footer>
+        <footer id="Lincs">
             <p>GitHub:
                 <a href="https://github.com/c1mcos">c1mcos</a>
             </p>
@@ -110,5 +140,6 @@
         </footer>
       </div>
     </div>
+  </div>
   </body>
 </html>
